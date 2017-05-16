@@ -143,7 +143,7 @@ namespace ad{
 					-c*x.getDerivative()/std::pow(x.getReal(), 2.0));
   }
   template Dual<float> operator /(int const&, const Dual<float> &);
-  template Dual<doubl e> operator /(int const&, const Dual<double> &);
+  template Dual<double> operator /(int const&, const Dual<double> &);
   template Dual<float> operator /(float const&, const Dual<float> &);
   template Dual<double> operator /(float const&, const Dual<double> &);
   template Dual<float> operator /(double const&, const Dual<float> &);
